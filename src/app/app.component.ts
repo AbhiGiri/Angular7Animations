@@ -9,7 +9,7 @@ import { trigger, style, state, animate, transition } from "@angular/animations"
   animations: [
     trigger('toggleBox', [
       state('open', style({
-        height: '200px',
+        height: '150px',
         backgroundColor: '#061ff0'
       })),
       state('close', style({
